@@ -1,0 +1,48 @@
+
+<!--
+Name: Daniya Malik
+Roll Number: 2510303175
+Assignment 14: CSS Grid Layouts - Task 2
+Aim: Create a responsive photo gallery using CSS Grid and auto-fill.
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Club Photo Gallery</title>
+
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 10px;
+        }
+
+        .box {
+            background-color: lightpink;
+            padding: 40px 10px;
+            text-align: center;
+            border: 1px solid black;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Club Photo Gallery</h1>
+
+    <div class="gallery">
+        <div class="box">Photo 1</div>
+        <div class="box">Photo 2</div>
+        <div class="box">Photo 3</div>
+        <div class="box">Photo 4</div>
+        <div class="box">Photo 5</div>
+        <div class="box">Photo 6</div>
+    </div>
+
+</body>
+</html>

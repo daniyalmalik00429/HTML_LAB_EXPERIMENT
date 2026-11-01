@@ -1,0 +1,24 @@
+
+/*
+Name: Daniyal Malik
+Roll Number: 2510303175
+Assignment Number: 11
+Task: 3
+*/
+
+:root {
+    --primary-color: #1d3557;
+    --accent-color: #e63946;
+    --heading-size: 2rem;
+    --spacing: 16px;
+}
+
+body {
+    color: var(--primary-color);
+    padding: var(--spacing);
+}
+
+h1 {
+    color: var(--accent-color);
+    font-size: var(--heading-size);
+}
